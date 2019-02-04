@@ -1,1 +1,0 @@
-$("ul ").css("color", "red");

@@ -1,5 +1,6 @@
-$(".button").click(function() {
-  $("input").style.count();
-});
-
-let count = +1;
+var button = document.getElementById("clickme"),
+  count = 0;
+button.onclick = function() {
+  count += 1;
+  button.innerHTML = "Click me: " + count;
+};
